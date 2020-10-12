@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+require_once("config.php");
 
 $channels=json_decode(file_get_contents("channels.json"), true);
 //print_r($channels);

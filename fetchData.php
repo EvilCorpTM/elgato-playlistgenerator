@@ -8,8 +8,7 @@ Astra 19.2E https://www.satindex.de/transponderv-1.php
 Astra 28.2E https://www.satindex.de/transponderv-3.php
 ... (and the other URLs from satindex.de
 */
-include("config.php");
-
+require_once("config.php");
 
 function preg_first($re, $text) {
 	preg_match_all($re, $text, $matches, PREG_SET_ORDER, 0);
